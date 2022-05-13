@@ -136,6 +136,41 @@ input {
 }
 
 
+@media (max-width: 768px) {
+   .wrapper {
+      width: 65%;
+   }
+
+   .text-point {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .text-point-text {
+      text-align: center;
+      padding-bottom: 1rem;
+   }
+
+   .text-point-points {
+      order: -1;
+      margin-bottom: 2rem;
+      width: 8rem;
+   }
+
+   .control {
+      width: 1rem;
+      height: 1rem;
+   }
+
+   .slider-text {
+      align-self: flex-start;
+   }
+
+   .text-slide {
+      font-size: 1.2em;
+   }
+}
 
 .footer {
    width: 100%;
